@@ -1,0 +1,24 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    perspective: 600px;
+}
+
+img{
+    display: block;
+    margin: 50px auto;
+    transition: all .5s ease-in-out;
+}
+
+img:hover{
+    -webkit-transform: translate3d(0,0,100px);
+    -moz-transform: translate3d(0,0,100px);
+    -o-transform: translate3d(0,0,100px);
+    -ms-transform: translate3d(0,0,100px);
+    transform: translate3d(0,0,100px);
+}
